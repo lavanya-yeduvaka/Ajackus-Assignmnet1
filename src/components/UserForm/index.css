@@ -1,0 +1,67 @@
+.form-container{
+    background-image: url("https://t4.ftcdn.net/jpg/04/61/47/03/360_F_461470323_6TMQSkCCs9XQoTtyer8VCsFypxwRiDGU.jpg");
+height:100vh;
+width:100vw;
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.heading{
+    color:white;
+}
+.user-form {
+border:solid 2px white;
+border-radius: 20px;
+width:35%;
+height:50%;
+padding:20px;
+  }
+
+.user-forms {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 10px;
+  }
+  
+  .user-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: 10px;
+  }
+  .input-box{
+    border-radius: 5px;
+    margin-left:10px;
+    width:65%;
+
+  }
+  .input-data{
+    display: flex;
+    flex-direction: row;
+    padding:10px;
+  }
+  .label-data{
+    color:white;
+    font-size: 20px;
+  }
+  
+  
+  .button{
+    color: rgb(72, 55, 184);
+    background-color:transparent;
+    border:solid 2px white;
+    border-radius: 5px;
+    width:500px;
+height:40px; 
+cursor:pointer;
+font-size: 25px;
+
+font-weight: bold;
+margin: 10px;
+ }
+  
+  .button:hover {
+    background-color: rgb(104, 231, 119);
+  }
